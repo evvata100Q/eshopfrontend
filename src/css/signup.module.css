@@ -4,6 +4,14 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+button {
+    transition: 0.2s ease-in-out;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
 .main {
     width: 100vw;
     height: 100vh;
