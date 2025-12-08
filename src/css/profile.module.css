@@ -1,0 +1,72 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.table {
+    width: 50%;
+    border: 1px solid;
+    margin: auto;
+}
+
+.desc {
+    width: 100%;
+    border: 1px dotted black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+dialog {
+    margin: auto;
+    border: 1px solid;
+    animation: fordialog 0.5s;
+    border-radius: 10px;
+}
+
+dialog div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+dialog img {
+    width: 10%;
+}
+
+.themebutton {
+    border: 1px solid;
+    border-radius: 10px;
+    display: inline-block;
+    width: 60px;
+    height: 20px;
+    position: relative;
+    transition: 0.3s ease;
+
+}
+
+.themebutton div {
+    width: 30%;
+    height: 100%;
+    border: 1px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    transition: 0.3s ease;
+
+}
+
+@keyframes fordialog {
+    0% {
+        transform: translateY(100vh);
+    }
+
+    90% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

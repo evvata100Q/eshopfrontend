@@ -1,0 +1,44 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.liform {
+    width: 30%;
+    height: 40%;
+    border: 1px solid;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.liform input {
+    height: 15%;
+    width: 60%;
+}
+
+.liform button {
+    width: 30%;
+    height: 10%;
+}
+
+
+.main a {
+    text-decoration: none;
+}
+
+.main a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width:600px) {
+    .liform {
+        width: 60%;
+    }
+}

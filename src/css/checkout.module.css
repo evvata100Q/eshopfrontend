@@ -1,0 +1,17 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carttable {
+    width: 50%;
+    border-spacing: 10px 10px;
+    border: 1px solid;
+}
+
+.carttable td {
+    text-align: center;
+}
